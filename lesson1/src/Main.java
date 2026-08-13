@@ -48,5 +48,14 @@ public class Main {
 
         System.out.println("Max: " + max);
 
+
+        String[] letters = {"M", "a", "t", "r", "i", "x"};
+        StringBuilder sb = new StringBuilder();
+
+        for (String letter : letters) {
+            sb.append(letter);
+        }
+
+        System.out.println("Combined word: " + sb.toString());
     }
 }
