@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -28,5 +30,12 @@ public class Main {
             number1 = temp;
         }
         System.out.println("NOD: " + number1);
+
+        int nums[] = {1, 4, 12, 19 ,10};
+        for(int num : nums) {
+            System.out.println(num);
+        }
+
+
     }
 }
