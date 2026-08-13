@@ -55,5 +55,7 @@ public class Main {
         for (String letter : letters) {
             sb.append(letter);
         }
+
+        System.out.println("Hello " + sb);
     }
 }
