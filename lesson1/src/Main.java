@@ -19,5 +19,14 @@ public class Main {
             sum += j;
         }
         System.out.println("Sum of numbers 1-10: " + sum);
+
+        int number1 = 48;
+        int number2 = 18;
+        while (number2 != 0) {
+            int temp = number2;
+            number2 = number1 % number2;
+            number1 = temp;
+        }
+        System.out.println("NOD: " + number1);
     }
 }
