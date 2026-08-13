@@ -55,7 +55,5 @@ public class Main {
         for (String letter : letters) {
             sb.append(letter);
         }
-
-        System.out.println("Combined word: " + sb.toString());
     }
 }
