@@ -1,2 +1,4 @@
 .idea
 lesson1/lesson1.iml
+*.iml
+/out
